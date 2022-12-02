@@ -65,3 +65,17 @@ Be **intentional** about building solid access control into your system.
 | - More sensitive, restricted regulated,<br>or private data needs to be more proceted   |       |
 | - Encrypt data to protect it. |   |
 
+
+## Steps to Implement Additional Protection 
+1. If you don't have to store sensitive data, don't do it.
+2. If you are storing sensitive data, encrypt it at rest and in transit.
+3. If you are encrypting data, use known, string cryptographic algorithms.
+
+# Key 
+
+1. If you have data that needs protecting in a web app, you should encrypt it.
+2. If you decide to encrypt data, follow best practices.
+
+---
+---
+
