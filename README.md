@@ -60,7 +60,7 @@ Be **intentional** about building solid access control into your system.
 
 
 | part1      | part2 |
-| :---        |    ----:   |
+| :---        |    :---   |
 | - Think about data that's being collectd,<br>stored, and used     | - Follow well-known, proven procedures<br>to ensure data is<br> encrypted | 
 | - More sensitive, restricted regulated,<br>or private data needs to be more proceted   | Text        |
 | - Encrypt data to protect it. | 
