@@ -79,3 +79,9 @@ Be **intentional** about building solid access control into your system.
 ---
 ---
 
+## 3. Injection 
+
+**Injection**
+
+When an application accepts data as input<br>
+and processes it as instruction.
