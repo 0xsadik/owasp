@@ -55,3 +55,13 @@ Be **intentional** about building solid access control into your system.
 ---
 
 ## 2. Cryptographic failures
+
+> The first thing is to determine the protection needs of data in transit adn at rest. For example, passwords, redit card numbers, health records, personal information, and business secrets require extra protection. (-OWASP)
+
+
+| part1      | part2 |
+| :---        |    ----:   |
+| - Think about data that's being collectd,<br>stored, and used     | - Follow well-known, proven procedures<br>to ensure data is<br> encrypted | 
+| - More sensitive, restricted regulated,<br>or private data needs to be more proceted   | Text        |
+| - Encrypt data to protect it. | 
+
