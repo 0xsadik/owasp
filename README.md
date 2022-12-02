@@ -2,7 +2,7 @@
 ---
 
 
-1. Broken Access Control 
+## 1. Broken Access Control 
 
 > This exposure occurs when confidential information is viewed by a user who should not have permission to access that data. (- OWASP)
 
@@ -48,3 +48,10 @@ B. Scenario
 ## key 
 Be **intentional** about building solid access control into your system.
 
+
+
+---
+
+---
+
+## 2. Cryptographic failures
