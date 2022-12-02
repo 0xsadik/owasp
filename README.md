@@ -59,7 +59,7 @@ Be **intentional** about building solid access control into your system.
 > The first thing is to determine the protection needs of data in transit adn at rest. For example, passwords, redit card numbers, health records, personal information, and business secrets require extra protection. (-OWASP)
 
 
-| :-: Part1      | <center>Part2 </center> |
+| Part1      | <center>Part2 </center> |
 | :---        |    :---   |
 |  Think about data that's being collectd,<br>stored, and used     | Follow well-known, proven procedures<br>to ensure data is encrypted | 
 |  More sensitive, restricted regulated,<br>or private data needs to be more proceted   |       |
