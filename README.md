@@ -12,7 +12,7 @@ Making sure that people have access to what they're supposed to and don't have a
 
 *A person with unintended access might read, edit, or delete private data.*
 
-1. Scenario:
+A. Scenario:
 
     - sensitive information is exposed to an unauthorized person
     - HR representative prints out performance evaluations 
@@ -34,7 +34,7 @@ When a user is able to act beyond the permissions of their role.
 
 *NOTE: Make sure that your're not unintentionally leaving private data in public areas.*
 
-2. Scenario 
+B. Scenario 
 
     - Information gets accidentally sent to someone who shouldn't have it.
     - HR representative intends to email performance evaluations to a collegague
