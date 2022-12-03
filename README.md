@@ -186,3 +186,35 @@ software, or application.
 --- 
 
 <br/>
+
+## 6. Vulnerable and outdated components 
+
+> You are likely vulnerable: if you don't know all the versions of all the components you use... [and] if the software is vulnerable, unsupported, or out of date. ( - OWASP )
+
+### Modern Software Construction 
+- Majority of web apps are built using open-source or third-party components
+- If those components are vulnerable, so is the web application
+
+### Equifax Data Breach
+- Using Apache Struts 
+- Patch available for Apache Struts
+- Patch not deployed, and malicious actors took advantage
+
+### Organizational Steps to Prevent This vulnerability
+1. Know what your assets are.
+2. Know if each component is vulnerable or not. Research known vulnerablilities and proactively test applications.
+3. Update out-of-date software patch known vulnerabilities.
+
+
+## Key
+1. This isn't a technical problem, but a people and process problem.
+2. You need effective buy-in from stakeholders.
+3. You need a robust and repeatable process that covers asset inventory, vulnerability discovery, and remediation.
+
+<br/>
+
+---
+---
+
+<br/>
+
