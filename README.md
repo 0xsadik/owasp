@@ -59,8 +59,8 @@ Be **intentional** about building solid access control into your system.
 > The first thing is to determine the protection needs of data in transit adn at rest. For example, passwords, redit card numbers, health records, personal information, and business secrets require extra protection. (-OWASP)
 
 
-| Part1      | <center>Part2 </center> |
-| :---        |    :---   |
+| Part1                                   |                                    Part2 |
+| :---                                    |                                   :---   |
 |  Think about data that's being collectd,<br>stored, and used     | Follow well-known, proven procedures<br>to ensure data is encrypted | 
 |  More sensitive, restricted regulated,<br>or private data needs to be more proceted   |       |
 |  Encrypt data to protect it. |   |
@@ -85,3 +85,41 @@ Be **intentional** about building solid access control into your system.
 
 When an application accepts data as input<br>
 and processes it as instruction.
+
+> An application is vulnerabel to attack when hostile data is used. (-OWASP)
+<br/>
+
+## Injection
+- Occurs where there is an opportunity for a user to provide input
+- Application handles that input incorrectly
+- Bad actor could inject malicious code that ends up being interpreted as instruction
+
+<br/>
+
+## Cross-Site Scripting
+- Application does not neutralize user input
+- Does not verify that input is safe, legitimate, and in the correct format
+<br/>
+
+## Attacks against Back-End Databases
+
+- SQL injection attack to create, read, update, or delete something in a back-end SQL database
+
+- Take advantage of unmonitored user input field to trick application.
+<br/>
+
+## Key
+
+1. You need to neutralize or verify user input in your web applications.
+
+<br/>
+
+---
+---
+
+<br/>
+
+
+
+
+
