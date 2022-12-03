@@ -123,5 +123,19 @@ and processes it as instruction.
 
 > A new category focusing on risks related to design and architectural flaws (- OWASP)
 
+## Error messages 
 
+- Useful in development phase for troubleshooting
+- Need to eliminate unnecessary error messages before code is pusshed to production
+- Unsanitized messages may contain information that can help malicious actors craft an attack
+
+## Example of insecure Design
+
+1. Sensitive information in Error message
+2. PlainText passwords
+
+## Key 
+
+1. security matters not only in development and production, but design as well
+2. Consult with security experts to ensure appropriate requirements and design decisions are being made early on.
 
