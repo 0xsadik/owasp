@@ -119,7 +119,9 @@ and processes it as instruction.
 
 <br/>
 
+## 4. Insecure Design 
 
+> A new category focusing on risks related to design and architectural flaws (- OWASP)
 
 
 
