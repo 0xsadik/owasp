@@ -139,3 +139,50 @@ and processes it as instruction.
 1. security matters not only in development and production, but design as well
 2. Consult with security experts to ensure appropriate requirements and design decisions are being made early on.
 
+<br/>
+
+--- 
+--- 
+
+<br/>
+
+## 5. Security Misconfiguration 
+
+> The application might be v ulnerable if the application is without a concerted, repeatable application seciurity configuration process. (- OWASP)
+
+## Hardened 
+
+A securely configured technology, <br/>
+software, or application.
+
+### Physical security misconfigurations
+
+- Leaving your house and forgetting to lock the door 
+- Driving a car and not buckling your seatbelt 
+
+### Digital or Web App Security Misconfigurations 
+- Not using a password on your mobile device
+- Failing to change default passwords
+- Enabling unnecessary services or features
+- Insecurely configuring cloud permission services
+- Failing to update software
+
+## Security misconfigurations 
+1. Failure to change default passwords
+2. Failure to use strong passwords
+
+### Addressing Security Misconfigurations 
+- Indentify and evaluate each setting or configuration for security
+- Use center for internet security (CIS) guidelines
+- Ideally, comply with CIS hardening standards
+
+## Key 
+1. All teams need to understand the fundamental concept of security misconfiguration.
+2. Teams should make decisions purposefully with knowledge of the security risks involved.
+
+<br/>
+
+--- 
+--- 
+
+<br/>
