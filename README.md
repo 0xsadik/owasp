@@ -218,3 +218,21 @@ software, or application.
 
 <br/>
 
+## 7. Identification and authentication failures 
+
+> 'Confirmation of the user's identity, authentication, and session management is critical to protect against authentication-related attacks.' (- OWASP)
+
+
+### Types of Failures
+
+1. Actor claims a given identity, but the software doesn't prove that claim is  correct.
+
+2. Software communicates with host that provides certificate, but doesn't ensure certificate is actually associated with the host.
+
+### Forgot my password 
+- Ask for code.
+- Verify code is correct .
+- Allow access.
+
+**If an attacker can convince an app their host is legitimate, users can be sent to fake website.**
+
