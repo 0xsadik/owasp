@@ -229,10 +229,22 @@ software, or application.
 
 2. Software communicates with host that provides certificate, but doesn't ensure certificate is actually associated with the host.
 
+3. Web app establishes a new user session without closing the previous session.
+
 ### Forgot my password 
 - Ask for code.
 - Verify code is correct .
 - Allow access.
 
-**If an attacker can convince an app their host is legitimate, users can be sent to fake website.**
+<br/>
 
+*If an attacker can convince an app their host is legitimate, users can be sent to fake website.*
+
+
+
+**This vulnerability occurs when the web app does not invalidate the previosu session before authenticating a new user**
+
+## Key 
+
+1. Web applications should identify users and authentiate them properly.
+2. This sounds simple, but can be very complex.
